@@ -1,0 +1,186 @@
+/*
+ * Designed and built from scratch by Behrooz Babazadeh
+ */
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 64px 0px 66px 0px;
+	background-color: #ffffff;
+	color: #F5F5F5;
+}
+
+/* The start of the nav wrap */ 
+.nav-wrap {
+	background-color: #000000;
+	display: block;
+	width: 100%;
+	height: 65px;
+	position: fixed;
+	top: 0;
+	left: 0;	
+	z-index: 2;
+}
+
+#home_tab {
+	font-family: cursive;
+	color: white;
+	display: inline-block;
+	float:left;
+	font-size: 34px;
+	padding: 5px 10px 0px 10px;
+	margin: 0px 0px 0px 130px;
+}
+
+#home_tab:hover {
+	color: rgba(250,250,250,0.7);
+}
+
+#tab {
+	color: white;
+	display: inline-block;
+	float: right;
+	padding: 20px 20px 20px 20px;
+	margin: 0px 50px 0px 0px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#tab:hover {
+	color: rgba(250,250,250,0.7);
+}
+/* End of the nav */
+
+/* ---------- Content ----------*/
+
+.container {
+	background-color: #757575;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+	width: 50%;
+	height: 100%;
+	z-index: 1;
+}
+#page {
+	max-width: 620px;
+	height: 100%;
+	padding: 70px;
+}
+
+/*-------- End of content --------*/
+
+footer {
+	background-color: #000000;
+	width: 100%;
+	height: 20%;
+	clear:both;
+	position: absolute;
+}
+
+/*----- Responsive starts here ------*/
+
+/* Tablet Landscape */
+@media (max-width: 780px) {
+.nav-wrap {
+	background-color: #000000;
+	display: block;
+	width: 100%;
+	height: 65px;
+	position: fixed;
+	top: 0;
+	left: 0;	
+	z-index: 2;
+	}
+
+#home_tab {
+	font-size: 1.5rem;
+	padding: 5px 10px 0px 10px;
+	margin: 10px;
+}
+
+#tab {
+	padding: 20px 30px 20px 10px;
+	margin: 0px;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 32px 0px 0px 0px;
+}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+	display: block;
+	width: 75%;
+	height: 100%;
+}
+
+#page {
+	max-width: 620px;
+	height: 100%;
+	
+}
+
+footer {
+	width: 100%;
+	height: 20%;
+}
+
+}
+/*---- Tablet Landscape ends here -------*/
+
+/*----- Moble Landscape starts here*/
+
+@media (max-width: 500px) {
+.nav-wrap {
+	width: 100%;
+	height: 65px;
+	}
+
+#home_tab {
+	font-size: 1.0rem;
+	padding: 10px 70px 0px 110px;
+	margin: 0px 0px 0px 10px;
+}
+
+#tab {
+	padding: 10px 40px 20px 10px;
+	margin: 0;
+	font-size: .5rem;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 32px 0px 33px 0px;
+	font-size: .8rem;
+}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+	display: block;
+	width: 75%;
+	height: 100%;
+}
+
+#page {
+	max-width: 620px;
+	height: 100%;
+	padding: 30px 10px 10px 10px;
+}
+}
+/*----- Moble Landscape ends here --------*/
+
+/*------- Ending responsive ---------*/
+
+
+
+
